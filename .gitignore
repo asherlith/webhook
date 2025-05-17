@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.env*
+env/
+venv/
+ENV/
+*.log
+.idea
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Railway-specific (اگر چیزی خاصی اضافه شد، اینجا بذار)
+
+# Pipenv
+Pipfile.lock
+
+# pyproject tools
+*.egg-info/
