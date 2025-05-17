@@ -30,6 +30,7 @@ def webhook():
         project = update.get('project_id', 1)
 
         send_telegram_message(CHAT_ID, f'''
+        🌈
 نوتیفیکیشن پروژه : {PROJECT_MAPPER.get(project)}
     --------------------------------------------
     {text}
